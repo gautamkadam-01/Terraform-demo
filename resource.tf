@@ -6,3 +6,10 @@ resource "aws_instance" "example" {
     Name = "terra-instance"
   }
 }
+
+resource "aws_s3_bucket" "mybucket" {
+  Tags = {
+    name = "Gautam77"
+  }
+
+}
