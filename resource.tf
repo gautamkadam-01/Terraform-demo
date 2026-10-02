@@ -8,8 +8,5 @@ resource "aws_instance" "example" {
 }
 
 resource "aws_s3_bucket" "mybucket" {
-  tags = {
-    name = "Gautam77"
-    environment = "dev"
-  }
+  bucket = "Gautam777"
 }
